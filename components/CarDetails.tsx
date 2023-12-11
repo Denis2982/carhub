@@ -35,12 +35,12 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                         <div className='flex min-h-full items-center justify-center p-4 text-center'>
                             <Transition.Child
                                 as={Fragment}
-                                enter='ease-out duration-500'
-                                enterFrom='opacity-0 scale-80'
+                                enter='ease-out duration-300'
+                                enterFrom='opacity-0 scale-95'
                                 enterTo='opacity-100 scale-100'
-                                leave='ease-out duration-500'
+                                leave='ease-out duration-300'
                                 leaveFrom='opacity-100 scale-100'
-                                leaveTo='opacity-0 scale-80'
+                                leaveTo='opacity-0 scale-95'
                             >
                                 <Dialog.Panel className='relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5'>
                                     <button
